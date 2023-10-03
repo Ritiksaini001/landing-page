@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+#main{
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+}
+
+#nav{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#nav-part2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 65%;
+}
+
+#nav h1{
+  font-size: 20px;
+  display: flex;
+  align-items: center; 
+}
+
+#nav>i{
+  font-size: 20px;
+}
+
+#nav-part2 h5{
+  font-weight: 500;
+  font-size: 15px;
+}
+
+#nav-part2 img{
+  height: 100px;
+  background-color: black;
+}
+
+#line{
+  height: 2px;
+  width: 80px;
+  background-color: red;
+}
+
+#content{
+  height: calc(100% - 100px);
+  width: 100%;
+  display: flex;
+}
+
+#left{
+  width: 35%;
+  height: 100%;
+  /* background-color: seagreen; */
+  padding: 100px 40px;
+}
+
+#left h1{
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 55px;
+  margin-bottom: 30px;
+}
+
+#left span{
+  color: red;
+  font-weight: 500;
+}
+
+#left p{
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 30px;
+  width: 70%;
+}
+
+#left button{
+  background-color: rgba(255, 0, 0, 0.838);
+  padding: 13px 25px;
+  border-radius: 50px;
+  border: 2px solid black;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+#left button i{
+  margin-right: 6px;
+}
+
+#center{
+  width: 30%;
+  height: 100%;
+}
+
+#center-img{
+  background-image: url(https://images.unsplash.com/photo-1567103472667-6898f3a79cf2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y29jYSUyMGNvbGF8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  border-top-right-radius: 1000px;
+  border-top-left-radius: 1000px;
+}
+
+#right{
+  width: 35%;
+  height: 100%;
+  padding: 200px 100px;
+}
+
+#right-elem{
+  width: 300px;
+  /* background-color: seagreen; */
+}
+
+#elem1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.413);
+  height: 50px;
+}
+
+#elem1 h1{
+  font-size: 17px;
+  font-weight: 500;
+  opacity: .6;
+}
+
+#elem1 i{
+  font-size: 17px;
+  opacity: .6;
+}
+
+#elem2 h1{
+  font-weight: 600;
+  font-size: 17px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+#elem2 p{
+  font-size: 12px;
+  opacity: .6;
+  font-weight: 500;
+  width: 90%;
+}
